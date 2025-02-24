@@ -43,10 +43,10 @@ public class MatrixOperations {
         }
 
         // Виведення результатів
-        System.out.println("Сума парних рядків: " + sumEvenRows);
-        System.out.println("Сума непарних рядків: " + sumOddRows);
-        System.out.println("Добуток парних стовпців: " + productEvenCols);
-        System.out.println("Добуток непарних стовпців: " + productOddCols);
+        System.out.println("Сума парних рядків(рядок 0, 2): " + sumEvenRows);
+        System.out.println("Сума непарних рядків(рядок 1, 3): " + sumOddRows);
+        System.out.println("Добуток парних стовпців (стовпець 0, 2): " + productEvenCols);
+        System.out.println("Добуток непарних стовпців (стовпець 1, 3) : " + productOddCols);
 
         // Перевірка на магічний квадрат
         boolean isMagic = true;
